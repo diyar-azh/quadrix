@@ -1,10 +1,10 @@
 class quadboard():
   def __init__(self):
-    self.rw = 7
-    self.cl = 7
-
-  def Capture(rw, cl):
-    pass
+    self.board = [0]
+    for x in rang(1, 49)
+      self.board.append(0)
     
-  def SaveCapture(rw, cl):
+
+  def Capture(self, rw, cl, op):
     x = (rw * 7) + cl
+    self.board[x] = op
