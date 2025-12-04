@@ -1,13 +1,11 @@
-op = true
+op = True
 
 def NewGame():
     board = quadboard()
 
 def capture(rw, cl):
     board.capture(rw, cl, getOp())
+    op = not op
     
 def getOp():
-    if op
-        return 1
-    else
-        return -1
+    return 1 if op else -1
